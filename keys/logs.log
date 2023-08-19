@@ -1,4 +1,0 @@
-2023-07-20 11:39:12,146 - Server - INFO - initialization complete
-2023-07-20 11:39:12,203 - Server - INFO - Handshake starting
-2023-07-20 13:02:33,384 - Server - INFO - Timeout, shutting down
-2023-07-20 13:02:33,398 - Server - INFO - [CancelledError(''), 'server timed out', Shutdown('shutdown initiated')]
