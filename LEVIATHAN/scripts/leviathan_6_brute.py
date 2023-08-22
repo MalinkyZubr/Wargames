@@ -1,3 +1,6 @@
+"""
+This program is for brute forcing numeric passcodes in command line binaries. For leviathan 6 in OverTheWire
+"""
 import subprocess
 import argparse
 
