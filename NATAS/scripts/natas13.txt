@@ -1,0 +1,4 @@
+now we have another image upload, but this time it checks for image exif data.
+what to do?
+"With this method, an attacker inserts PHP backdoor code in the meta-data headers of an image to circumvent detection."
+PHP exif_imagetype only reads the first bytes for the magic number for image type. We insert this in our PHP script

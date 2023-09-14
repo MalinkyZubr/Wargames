@@ -1,0 +1,6 @@
+sql injection, finally
+
+"silly" or "x"="x"--
+
+"SELECT * from users where username=\"".$_REQUEST["username"]."\" and password=\"".$_REQUEST["password"]."\"";
+username" or "1"="1

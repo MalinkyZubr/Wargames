@@ -1,0 +1,10 @@
+now they are filtering some important unix characters
+grep -i $(cat /etc/natas_webpass/natas11) dictionary.txt
+
+what if we exploited the injection vulnerability in the last level somehow?
+
+or maybe we are thinking too complex
+
+grep -i e /etc/natas_webpass/natas11 
+
+grep can take multiple file inputs. Gotcha: 1KFqoJXi6hRaPluAmk8ESDW4fSysRoIg

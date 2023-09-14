@@ -1,0 +1,3 @@
+the program takes a jpg file and uploads it to the remote system. What if I insert something other than 
+the name of the single image file into the filename?
+I guess this is what they call a webshell
